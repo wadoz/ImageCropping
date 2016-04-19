@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimiry"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/cancel_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimiry"
+        android:contentDescription="@string/cancel"
+        android:src="@mipmap/ic_close" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimiry"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/ok_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimiry"
+        android:contentDescription="@string/ok"
+        android:src="@mipmap/ic_check" />
+
+</LinearLayout>

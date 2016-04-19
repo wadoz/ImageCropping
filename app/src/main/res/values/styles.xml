@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonStyle" parent="android:Widget.Button">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="AppDefult" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimiry</item>
+        <item name="colorPrimaryDark">@color/colorPrimiryDark</item>
+        <item name="colorControlNormal">@color/backGroundPrimary</item>
+
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rec.imagecropping"
+    android:versionCode="1"
+    android:versionName="0.0.1" >
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:name="com.rec.imagecropping.Platform"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+
+        android:label="@string/app_name"
+        android:theme="@style/AppDefult" >
+        <activity
+            android:name="com.rec.imagecropping.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.EditorActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.editoractivity.BrightnessActivity"
+            android:label="@string/brightness"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.editoractivity.CropActivity"
+            android:label="@string/crop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.editoractivity.RotateActivity"
+            android:label="@string/rotate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.editoractivity.TestCommandActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.rec.imagecropping.editoractivity.FilterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
